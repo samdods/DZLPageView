@@ -11,7 +11,7 @@
 @class DZLPageView;
 @class DZLPageViewCell;
 
-@protocol SDPageViewDataSource <NSObject>
+@protocol DZLPageViewDataSource <NSObject>
 - (DZLPageViewCell *)pageView:(DZLPageView *)pageView cellForPageAtIndex:(NSUInteger)pageIndex;
 - (NSUInteger)numberOfPagesInPageView:(DZLPageView *)pageView;
 @optional
@@ -19,7 +19,7 @@
 @end
 
 
-@protocol SDPageViewDelegate <UIScrollViewDelegate>
+@protocol DZLPageViewDelegate <UIScrollViewDelegate>
 @optional
 - (void)pageView:(DZLPageView *)pageView didTapCellForPageAtIndex:(NSUInteger)pageIndex;
 - (void)pageView:(DZLPageView *)pageView didScrollToPageAtIndex:(NSUInteger)pageIndex viewOffset:(CGFloat)viewOffset;
@@ -28,8 +28,8 @@
 
 @interface DZLPageView : UIScrollView
 @property (assign, nonatomic) NSUInteger currentInnerPageIndex;
-@property (weak, nonatomic) id<SDPageViewDataSource> dataSource;
-@property (weak, nonatomic) id<SDPageViewDelegate> delegate;
+@property (weak, nonatomic) id<DZLPageViewDataSource> dataSource;
+@property (weak, nonatomic) id<DZLPageViewDelegate> delegate;
 @property (assign, nonatomic) BOOL shouldLoopScroll;
 @property (assign, nonatomic, readonly) NSUInteger numberOfPages;
 - (void)scrollToPageAtIndex:(NSUInteger)viewIndex animated:(BOOL)animated;
