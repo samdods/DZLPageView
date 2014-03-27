@@ -19,8 +19,8 @@
 		EAD22D0518E48DFD00A6B72E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD22D0418E48DFD00A6B72E /* XCTest.framework */; };
 		EAD22D0618E48DFD00A6B72E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD22CE518E48DFD00A6B72E /* Foundation.framework */; };
 		EAD22D0718E48DFD00A6B72E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD22CE918E48DFD00A6B72E /* UIKit.framework */; };
-		EAD22D0F18E48DFD00A6B72E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAD22D0D18E48DFD00A6B72E /* InfoPlist.strings */; };
-		EAD22D1118E48DFD00A6B72E /* DZLPageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD22D1018E48DFD00A6B72E /* DZLPageViewTests.m */; };
+		EAD22D2118E48EB800A6B72E /* DZLPageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD22D1F18E48EB800A6B72E /* DZLPageViewCell.m */; };
+		EAD22D2418E48F2000A6B72E /* DZLPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD22D2318E48F2000A6B72E /* DZLPageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +34,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EAD22CE218E48DFD00A6B72E /* DZLPageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZLPageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD22CE218E48DFD00A6B72E /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD22CE518E48DFD00A6B72E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EAD22CE718E48DFD00A6B72E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		EAD22CE918E48DFD00A6B72E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		EAD22CED18E48DFD00A6B72E /* DZLPageView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DZLPageView-Info.plist"; sourceTree = "<group>"; };
+		EAD22CED18E48DFD00A6B72E /* Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Example-Info.plist"; sourceTree = "<group>"; };
 		EAD22CEF18E48DFD00A6B72E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EAD22CF118E48DFD00A6B72E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EAD22CF318E48DFD00A6B72E /* DZLPageView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DZLPageView-Prefix.pch"; sourceTree = "<group>"; };
+		EAD22CF318E48DFD00A6B72E /* Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example-Prefix.pch"; sourceTree = "<group>"; };
 		EAD22CF418E48DFD00A6B72E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EAD22CF518E48DFD00A6B72E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EAD22CF818E48DFD00A6B72E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EAD22CFA18E48DFD00A6B72E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EAD22CFB18E48DFD00A6B72E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EAD22CFD18E48DFD00A6B72E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		EAD22D0318E48DFD00A6B72E /* DZLPageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZLPageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD22D0318E48DFD00A6B72E /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD22D0418E48DFD00A6B72E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		EAD22D0C18E48DFD00A6B72E /* DZLPageViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DZLPageViewTests-Info.plist"; sourceTree = "<group>"; };
-		EAD22D0E18E48DFD00A6B72E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EAD22D1018E48DFD00A6B72E /* DZLPageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZLPageViewTests.m; sourceTree = "<group>"; };
+		EAD22D1E18E48EB800A6B72E /* DZLPageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZLPageViewCell.h; sourceTree = "<group>"; };
+		EAD22D1F18E48EB800A6B72E /* DZLPageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZLPageViewCell.m; sourceTree = "<group>"; };
+		EAD22D2218E48F2000A6B72E /* DZLPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZLPageView.h; sourceTree = "<group>"; };
+		EAD22D2318E48F2000A6B72E /* DZLPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZLPageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +83,8 @@
 		EAD22CD918E48DFD00A6B72E = {
 			isa = PBXGroup;
 			children = (
-				EAD22CEB18E48DFD00A6B72E /* DZLPageView */,
-				EAD22D0A18E48DFD00A6B72E /* DZLPageViewTests */,
+				EAD22D1A18E48EB800A6B72E /* DZLPageView */,
+				EAD22CEB18E48DFD00A6B72E /* Example */,
 				EAD22CE418E48DFD00A6B72E /* Frameworks */,
 				EAD22CE318E48DFD00A6B72E /* Products */,
 			);
@@ -92,8 +93,8 @@
 		EAD22CE318E48DFD00A6B72E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EAD22CE218E48DFD00A6B72E /* DZLPageView.app */,
-				EAD22D0318E48DFD00A6B72E /* DZLPageViewTests.xctest */,
+				EAD22CE218E48DFD00A6B72E /* Example.app */,
+				EAD22D0318E48DFD00A6B72E /* ExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,7 +110,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EAD22CEB18E48DFD00A6B72E /* DZLPageView */ = {
+		EAD22CEB18E48DFD00A6B72E /* Example */ = {
 			isa = PBXGroup;
 			children = (
 				EAD22CF418E48DFD00A6B72E /* AppDelegate.h */,
@@ -120,44 +121,46 @@
 				EAD22CFD18E48DFD00A6B72E /* Images.xcassets */,
 				EAD22CEC18E48DFD00A6B72E /* Supporting Files */,
 			);
-			path = DZLPageView;
+			path = Example;
 			sourceTree = "<group>";
 		};
 		EAD22CEC18E48DFD00A6B72E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EAD22CED18E48DFD00A6B72E /* DZLPageView-Info.plist */,
+				EAD22CED18E48DFD00A6B72E /* Example-Info.plist */,
 				EAD22CEE18E48DFD00A6B72E /* InfoPlist.strings */,
 				EAD22CF118E48DFD00A6B72E /* main.m */,
-				EAD22CF318E48DFD00A6B72E /* DZLPageView-Prefix.pch */,
+				EAD22CF318E48DFD00A6B72E /* Example-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EAD22D0A18E48DFD00A6B72E /* DZLPageViewTests */ = {
+		EAD22D1A18E48EB800A6B72E /* DZLPageView */ = {
 			isa = PBXGroup;
 			children = (
-				EAD22D1018E48DFD00A6B72E /* DZLPageViewTests.m */,
-				EAD22D0B18E48DFD00A6B72E /* Supporting Files */,
+				EAD22D2218E48F2000A6B72E /* DZLPageView.h */,
+				EAD22D2318E48F2000A6B72E /* DZLPageView.m */,
+				EAD22D1B18E48EB800A6B72E /* DZLPageViewCell */,
 			);
-			path = DZLPageViewTests;
+			name = DZLPageView;
+			path = ../DZLPageView;
 			sourceTree = "<group>";
 		};
-		EAD22D0B18E48DFD00A6B72E /* Supporting Files */ = {
+		EAD22D1B18E48EB800A6B72E /* DZLPageViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				EAD22D0C18E48DFD00A6B72E /* DZLPageViewTests-Info.plist */,
-				EAD22D0D18E48DFD00A6B72E /* InfoPlist.strings */,
+				EAD22D1E18E48EB800A6B72E /* DZLPageViewCell.h */,
+				EAD22D1F18E48EB800A6B72E /* DZLPageViewCell.m */,
 			);
-			name = "Supporting Files";
+			path = DZLPageViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EAD22CE118E48DFD00A6B72E /* DZLPageView */ = {
+		EAD22CE118E48DFD00A6B72E /* Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EAD22D1418E48DFD00A6B72E /* Build configuration list for PBXNativeTarget "DZLPageView" */;
+			buildConfigurationList = EAD22D1418E48DFD00A6B72E /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
 				EAD22CDE18E48DFD00A6B72E /* Sources */,
 				EAD22CDF18E48DFD00A6B72E /* Frameworks */,
@@ -167,14 +170,14 @@
 			);
 			dependencies = (
 			);
-			name = DZLPageView;
+			name = Example;
 			productName = DZLPageView;
-			productReference = EAD22CE218E48DFD00A6B72E /* DZLPageView.app */;
+			productReference = EAD22CE218E48DFD00A6B72E /* Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EAD22D0218E48DFD00A6B72E /* DZLPageViewTests */ = {
+		EAD22D0218E48DFD00A6B72E /* ExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EAD22D1718E48DFD00A6B72E /* Build configuration list for PBXNativeTarget "DZLPageViewTests" */;
+			buildConfigurationList = EAD22D1718E48DFD00A6B72E /* Build configuration list for PBXNativeTarget "ExampleTests" */;
 			buildPhases = (
 				EAD22CFF18E48DFD00A6B72E /* Sources */,
 				EAD22D0018E48DFD00A6B72E /* Frameworks */,
@@ -185,9 +188,9 @@
 			dependencies = (
 				EAD22D0918E48DFD00A6B72E /* PBXTargetDependency */,
 			);
-			name = DZLPageViewTests;
+			name = ExampleTests;
 			productName = DZLPageViewTests;
-			productReference = EAD22D0318E48DFD00A6B72E /* DZLPageViewTests.xctest */;
+			productReference = EAD22D0318E48DFD00A6B72E /* ExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EAD22CDD18E48DFD00A6B72E /* Build configuration list for PBXProject "DZLPageView" */;
+			buildConfigurationList = EAD22CDD18E48DFD00A6B72E /* Build configuration list for PBXProject "Example" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,8 +220,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EAD22CE118E48DFD00A6B72E /* DZLPageView */,
-				EAD22D0218E48DFD00A6B72E /* DZLPageViewTests */,
+				EAD22CE118E48DFD00A6B72E /* Example */,
+				EAD22D0218E48DFD00A6B72E /* ExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,7 +241,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAD22D0F18E48DFD00A6B72E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +251,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD22D2418E48F2000A6B72E /* DZLPageView.m in Sources */,
 				EAD22CFC18E48DFD00A6B72E /* ViewController.m in Sources */,
+				EAD22D2118E48EB800A6B72E /* DZLPageViewCell.m in Sources */,
 				EAD22CF618E48DFD00A6B72E /* AppDelegate.m in Sources */,
 				EAD22CF218E48DFD00A6B72E /* main.m in Sources */,
 			);
@@ -259,7 +263,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAD22D1118E48DFD00A6B72E /* DZLPageViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +271,7 @@
 /* Begin PBXTargetDependency section */
 		EAD22D0918E48DFD00A6B72E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EAD22CE118E48DFD00A6B72E /* DZLPageView */;
+			target = EAD22CE118E48DFD00A6B72E /* Example */;
 			targetProxy = EAD22D0818E48DFD00A6B72E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -288,14 +291,6 @@
 				EAD22CF818E48DFD00A6B72E /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EAD22D0D18E48DFD00A6B72E /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EAD22D0E18E48DFD00A6B72E /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -377,9 +372,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DZLPageView/DZLPageView-Prefix.pch";
-				INFOPLIST_FILE = "DZLPageView/DZLPageView-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
+				INFOPLIST_FILE = "Example/Example-Info.plist";
+				PRODUCT_NAME = Example;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,9 +385,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DZLPageView/DZLPageView-Prefix.pch";
-				INFOPLIST_FILE = "DZLPageView/DZLPageView-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
+				INFOPLIST_FILE = "Example/Example-Info.plist";
+				PRODUCT_NAME = Example;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -412,8 +407,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "DZLPageViewTests/DZLPageViewTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "DZLPageViewTests/ExampleTests-Info.plist";
+				PRODUCT_NAME = ExampleTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -430,8 +425,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DZLPageView/DZLPageView-Prefix.pch";
-				INFOPLIST_FILE = "DZLPageViewTests/DZLPageViewTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "DZLPageViewTests/ExampleTests-Info.plist";
+				PRODUCT_NAME = ExampleTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -440,7 +435,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EAD22CDD18E48DFD00A6B72E /* Build configuration list for PBXProject "DZLPageView" */ = {
+		EAD22CDD18E48DFD00A6B72E /* Build configuration list for PBXProject "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EAD22D1218E48DFD00A6B72E /* Debug */,
@@ -449,21 +444,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EAD22D1418E48DFD00A6B72E /* Build configuration list for PBXNativeTarget "DZLPageView" */ = {
+		EAD22D1418E48DFD00A6B72E /* Build configuration list for PBXNativeTarget "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EAD22D1518E48DFD00A6B72E /* Debug */,
 				EAD22D1618E48DFD00A6B72E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		EAD22D1718E48DFD00A6B72E /* Build configuration list for PBXNativeTarget "DZLPageViewTests" */ = {
+		EAD22D1718E48DFD00A6B72E /* Build configuration list for PBXNativeTarget "ExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EAD22D1818E48DFD00A6B72E /* Debug */,
 				EAD22D1918E48DFD00A6B72E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
